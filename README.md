@@ -28,3 +28,6 @@ API to use OpenAI  Text Completion &amp; Image Generation.
         2. num
         3. size
 
+# Environment Variables
+
+	`SECRETKEY` = OpenAI API Secret Key
