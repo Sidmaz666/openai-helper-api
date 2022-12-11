@@ -113,6 +113,7 @@ server.get("/", async (req, res) => {
       frequency_penalty,
       presence_penalty,
       best_result,
+      stop_result
     };
 
     res.send({
@@ -160,6 +161,7 @@ server.get("/generate_image", async(req,res) => {
   }
 
 })
+
 
 server.get("/list_models", async (req, res) => {
   res.send({
